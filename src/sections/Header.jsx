@@ -1,10 +1,12 @@
-import React from 'react'
+import React from 'react';
 
 const Header = () => {
   return (
     <header>
         <div>
-            <a src='/images/xora.svg' width={115} height={55} href="" alt="logo"></a>
+            <a>
+                <img src="/images/xora.svg" width={115} height={55} alt="logo" />
+            </a>
         </div>
     </header>
   )
