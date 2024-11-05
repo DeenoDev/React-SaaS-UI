@@ -25,6 +25,12 @@ const Header = () => {
                     <NavLink title="pricing"/>
                   </li>
 
+                  <li className='nav-logo'>
+                    <LinkScroll>
+                       <img src="/images/xora.svg" alt="" />
+                    </LinkScroll>
+                  </li>
+
                 </ul>
               </nav>
 
