@@ -1,10 +1,11 @@
 import React from 'react';
-import { link as LinkScroll } from 'react-scroll';
+import { Link as LinkScroll } from 'react-scroll';
 
-const NavLink = () => (
+const NavLink = ({title}) => (
   <LinkScroll>
-  </LinkScroll>
+  {title}
 
+  </LinkScroll>
 )
 
 const Header = () => {
@@ -19,7 +20,7 @@ const Header = () => {
               <nav>
                 <ul className='flex max-lg:block max-lg:px-12'>
                   <li className='nav-li'>
-                    <NavLink/>
+                    <NavLink title="features"/>
                   </li>
 
                 </ul>
