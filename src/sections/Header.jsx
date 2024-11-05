@@ -27,7 +27,7 @@ const Header = () => {
 
                   <li className='nav-logo'>
                     <LinkScroll>
-                       <img src="/images/xora.svg" alt="" />
+                       <img src="/images/xora.svg" width={160} height={55} alt="logo" />
                     </LinkScroll>
                   </li>
 
