@@ -1,4 +1,5 @@
 import React from 'react';
+import { link as LinkScroll } from 'react-scroll';
 
 const NavLink = () => (
   <LinkScroll>
