@@ -11,6 +11,9 @@ const Header = () => {
             <div className='w-full border-2 border-amber-400'>
               <nav>
                 <ul className='flex max-lg:block max-lg:px-12'>
+                  <li className='nav-li'>
+                    {/* <NavLink/> */}
+                  </li>
 
                 </ul>
               </nav>
