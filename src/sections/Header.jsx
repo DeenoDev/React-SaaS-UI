@@ -31,6 +31,10 @@ const Header = () => {
                     </LinkScroll>
                   </li>
 
+                  <li className='nav-li'>
+                    <NavLink title="faq"/>
+                  </li>
+
                 </ul>
               </nav>
 
