@@ -33,6 +33,10 @@ const Header = () => {
 
                   <li className='nav-li'>
                     <NavLink title="faq"/>
+                    <div className='dot'>
+                      <Navlink title='download'/>
+
+                    </div>
                   </li>
 
                 </ul>
