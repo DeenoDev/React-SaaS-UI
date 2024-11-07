@@ -2,7 +2,7 @@ import React from 'react';
 import { Link as LinkScroll } from 'react-scroll';
 
 const NavLink = ({ title }) => (
-  <LinkScroll className='base-bold text-p4 uppercase'>
+  <LinkScroll className='base-bold text-p4 uppercase transition-colors duration-500'>
   {title}
 
   </LinkScroll>
