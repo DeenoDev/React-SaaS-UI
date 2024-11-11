@@ -44,6 +44,7 @@ const Header = () => {
             </div>
             </div>
             <button className='lg:hidden z-2 size-10 border-2 border-s4/25 rounded-full flex justify-center items-center'>
+            <img src="/images/magic.svg" alt="" />
 
             </button>
         </div>
