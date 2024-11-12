@@ -32,7 +32,7 @@ const Header = () => {
                   <li className='nav-logo'>
                     <LinkScroll
                       to='hero'
-                      offset={-100}
+                      offset={-100} spy smooth className={clsx('max-lg:hidden transition-transform duration-500 cursor-pointer')}
                     >
                        <img src="/images/xora.svg" width={160} height={55} alt="logo" />
                     </LinkScroll>
