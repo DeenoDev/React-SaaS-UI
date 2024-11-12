@@ -46,7 +46,7 @@ const Header = () => {
             </div>
             </div>
             <button className='lg:hidden z-2 size-10 border-2 border-s4/25 rounded-full flex justify-center items-center' onClick={() => setIsOpen((prevState) => !prevState)}>
-            <img src="/images/magic.svg" alt="" />
+            <img src={`/images/${isOpen ? 'close' : 'magic'}.svg`} alt="" />
 
             </button>
         </div>
