@@ -30,7 +30,10 @@ const Header = () => {
                   </li>
 
                   <li className='nav-logo'>
-                    <LinkScroll>
+                    <LinkScroll
+                      to='hero'
+                      offset={-100}
+                    >
                        <img src="/images/xora.svg" width={160} height={55} alt="logo" />
                     </LinkScroll>
                   </li>
