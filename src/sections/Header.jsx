@@ -48,6 +48,10 @@ const Header = () => {
                 </ul>
               </nav>
 
+              <div>
+                <img src="/images/bg-outlines.svg" width={960} height={380} alt="" />
+              </div>
+
             </div>
             </div>
             <button className='lg:hidden z-2 size-10 border-2 border-s4/25 rounded-full flex justify-center items-center' onClick={() => setIsOpen((prevState) => !prevState)}>
