@@ -50,6 +50,7 @@ const Header = () => {
 
               <div>
                 <img src="/images/bg-outlines.svg" width={960} height={380} alt="outline" className='relative z-2' />
+                <img src="/images/bg-outlines.svg" width={960} height={380} alt="outline" className='relative z-2' />
               </div>
 
             </div>
