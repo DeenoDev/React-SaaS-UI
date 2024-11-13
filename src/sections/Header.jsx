@@ -49,7 +49,7 @@ const Header = () => {
               </nav>
 
               <div>
-                <img src="/images/bg-outlines.svg" width={960} height={380} alt="" />
+                <img src="/images/bg-outlines.svg" width={960} height={380} alt="outline" className='relative z-2' />
               </div>
 
             </div>
