@@ -1,4 +1,5 @@
 import React from "react";
+import { Element } from "react-scroll";
 
 const Hero = () => {
   return (
