@@ -13,7 +13,7 @@ const Hero = () => {
             <h1 className="mb-6 h1 text-p4 uppercase max-lg:mb-7 max-lg:h2 max-md:mb-4 max-md:text-5xl max-md:leading-12">
               Amazingly simple
             </h1>
-            <p>We designed Xora AI Video Editor to be an easy to use, quick to learn, and surprisingly powerful.</p>
+            <p className="max-w-440 mb-14 body-1 max-md:mb-10">We designed Xora AI Video Editor to be an easy to use, quick to learn, and surprisingly powerful.</p>
           </div>
         </div>
         
