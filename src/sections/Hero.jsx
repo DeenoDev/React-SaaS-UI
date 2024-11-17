@@ -17,7 +17,9 @@ const Hero = () => {
               We designed Xora AI Video Editor to be an easy to use, quick to
               learn, and surprisingly powerful.
             </p>
-            <LinkScroll to="features" offset={-100} spy smooth></LinkScroll>
+            <LinkScroll to="features" offset={-100} spy smooth>
+              TEXT
+            </LinkScroll>
           </div>
         </div>
       </Element>
