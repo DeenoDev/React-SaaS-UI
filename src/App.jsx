@@ -1,16 +1,14 @@
-import React from 'react';
-import Header from './sections/Header';
-import Hero from './sections/Hero';
+import React from "react";
+import Header from "./sections/Header";
+import Hero from "./sections/Hero";
 
 const App = () => {
   return (
-    <main className='overflow-hidden'>
+    <main className="overflow-hidden">
       <Header />
       <Hero />
-
-
     </main>
-  )
-}
+  );
+};
 
-export default App
+export default App;
