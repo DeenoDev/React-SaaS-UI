@@ -19,7 +19,7 @@ const Hero = () => {
               learn, and surprisingly powerful.
             </p>
             <LinkScroll to="features" offset={-100} spy smooth>
-              <Button />
+              <Button icon="/images/zap.svg" />
             </LinkScroll>
           </div>
         </div>
