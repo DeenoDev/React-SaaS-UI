@@ -3,7 +3,10 @@ import clsx from "clsx";
 
 const Button = ({ icon, children, href }) => {
   return href ? (
-    <a href=""></a>
+    <a
+      href=""
+      className={clsx("relative, p-0.5 g5 rounded-2xl shadow-500 group")}
+    ></a>
   ) : (
     <button className={clsx("relative, p-0.5 g5 rounded-2xl shadow-500 group")}>
       TEXT
