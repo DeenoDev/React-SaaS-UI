@@ -2,7 +2,20 @@ import React from "react";
 import clsx from "clsx";
 
 const Button = ({ icon, children, href, containerClassName, onClick }) => {
-  const Inner = () => <>Text</>;
+  const Inner = () => (
+    <>
+      <span>
+        <span>Marker</span>
+        {icon && (
+          <img
+            src={icon}
+            alt="circle"
+            className="size-10 mr-5 object-contain z-10"
+          />
+        )}
+      </span>
+    </>
+  );
 
   return href ? (
     <a
