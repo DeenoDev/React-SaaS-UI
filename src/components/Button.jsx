@@ -5,10 +5,18 @@ const Button = ({ icon, children, href, containerClassName }) => {
   return href ? (
     <a
       href=""
-      className={clsx("relative, p-0.5 g5 rounded-2xl shadow-500 group")}
+      className={clsx(
+        "relative, p-0.5 g5 rounded-2xl shadow-500 group",
+        containerClassName
+      )}
     ></a>
   ) : (
-    <button className={clsx("relative, p-0.5 g5 rounded-2xl shadow-500 group")}>
+    <button
+      className={clsx(
+        "relative, p-0.5 g5 rounded-2xl shadow-500 group",
+        containerClassName
+      )}
+    >
       TEXT
     </button>
   );
