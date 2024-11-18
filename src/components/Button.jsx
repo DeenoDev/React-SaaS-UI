@@ -2,7 +2,7 @@ import React from "react";
 import clsx from "clsx";
 
 const Button = ({ icon, children, href, containerClassName, onClick }) => {
-  const inner = () => <></>;
+  const Inner = () => <>Text</>;
 
   return href ? (
     <a
@@ -12,7 +12,7 @@ const Button = ({ icon, children, href, containerClassName, onClick }) => {
         containerClassName
       )}
     >
-      TEXT
+      <Inner />
     </a>
   ) : (
     <button
@@ -22,7 +22,7 @@ const Button = ({ icon, children, href, containerClassName, onClick }) => {
       )}
       onClick={onClick}
     >
-      TEXT
+      <Inner />
     </button>
   );
 };
