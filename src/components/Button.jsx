@@ -2,12 +2,19 @@ import React from "react";
 import clsx from "clsx";
 import Marker from "./Marker";
 
-const Button = ({ icon, children, href, containerClassName, onClick, markerFill }) => {
+const Button = ({
+  icon,
+  children,
+  href,
+  containerClassName,
+  onClick,
+  markerFill,
+}) => {
   const Inner = () => (
     <>
-      <span>
+      <span className="relative flex items-center min-h-[60px] px-4 g4 rounded-2xl inner-before group-hover:before:opacity-100 overflow-hidden">
         <span>
-          <Marker markerFill={} />
+          <Marker markerFill={markerFill} />
         </span>
         {icon && (
           <img
