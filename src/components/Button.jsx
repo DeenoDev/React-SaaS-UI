@@ -2,7 +2,7 @@ import React from "react";
 import clsx from "clsx";
 import Marker from "./Marker";
 
-const Button = ({ icon, children, href, containerClassName, onClick }) => {
+const Button = ({ icon, children, href, containerClassName, onClick, markerFill }) => {
   const Inner = () => (
     <>
       <span>
