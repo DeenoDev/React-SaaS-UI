@@ -1,6 +1,6 @@
 import React from "react";
 
-const Marker = () => {
+const Marker = ({ fill }) => {
   return (
     <svg
       width="8"
