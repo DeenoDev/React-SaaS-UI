@@ -6,7 +6,9 @@ const Button = ({ icon, children, href, containerClassName, onClick }) => {
   const Inner = () => (
     <>
       <span>
-        <span>Marker</span>
+        <span>
+          <Marker markerFill={} />
+        </span>
         {icon && (
           <img
             src={icon}
