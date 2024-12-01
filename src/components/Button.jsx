@@ -29,7 +29,7 @@ const Button = ({
         </span>
       </span>
 
-      <span className="glow-before" />
+      <span className="glow-before glow-after" />
     </>
   );
 
