@@ -28,6 +28,8 @@ const Button = ({
           {children}
         </span>
       </span>
+
+      <span className="glow-before" />
     </>
   );
 
