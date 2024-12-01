@@ -22,6 +22,13 @@ const Hero = () => {
               <Button icon="/images/zap.svg">Try it now </Button>
             </LinkScroll>
           </div>
+          <div className="absolute -top-32 left-2/3">
+            <img
+              src="/images/hero.png"
+              className="size-1230 max-lg:h-auto"
+              alt="hero"
+            />
+          </div>
         </div>
       </Element>
     </section>
