@@ -7,7 +7,11 @@ const Features = () => {
     <section>
       <Element name="features">
         <div className="container">
-          <div className="relative flex">{features.map()}</div>
+          <div className="relative flex">
+            {features.map((feature) => (
+              <div key={feature.id}>{feature.title}</div>
+            ))}
+          </div>
         </div>
       </Element>
     </section>
