@@ -1,7 +1,12 @@
 import React from "react";
+import { Element } from "react-scroll";
 
 const Features = () => {
-  return <div>Features</div>;
+  return (
+    <section>
+      <Element />
+    </section>
+  );
 };
 
 export default Features;
