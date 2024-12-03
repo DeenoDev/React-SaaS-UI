@@ -7,22 +7,7 @@ const Features = () => {
     <section>
       <Element name="features">
         <div className="container">
-          <div className="relative flex">
-            {[
-              {
-                icon: "test",
-                caption: "caption",
-                caption: "caption",
-                caption: "caption",
-              },
-              {
-                icon: "test",
-                caption: "caption",
-                caption: "caption",
-                caption: "caption",
-              },
-            ]}
-          </div>
+          <div className="relative flex">{features.map()}</div>
         </div>
       </Element>
     </section>
