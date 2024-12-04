@@ -13,6 +13,7 @@ const Features = () => {
                 key={feature.id}
                 className="relative z-2 md:px-2 px-5 md:pb-10 pb-5 flex-50 max-md:g7 max-md:border-2 max-md:border-3 max-md:rounded-3xl max-md:flex-320"
               >
+                <div className="w-full flex justify-start"></div>
                 {feature.title}
               </div>
             ))}
