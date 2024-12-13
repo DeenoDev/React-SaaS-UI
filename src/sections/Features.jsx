@@ -15,6 +15,7 @@ const Features = () => {
               >
                 <div className="w-full flex justify-start items-start">
                   <div className="">
+                    <div className="w-0.5 h-16 bg-s3" />
                     <img
                       src={icon}
                       className="size-28 object-contain"
