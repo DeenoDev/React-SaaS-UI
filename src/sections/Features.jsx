@@ -1,5 +1,5 @@
 import React from "react";
-import { Element } from "react-scroll";
+import { Button, Element } from "react-scroll";
 import { features } from "../constants";
 
 const Features = () => {
@@ -28,6 +28,7 @@ const Features = () => {
                   {title}
                 </h2>
                 <p className="mb-11 body-1 max-md:mb-8 max-md:body-3">{text}</p>
+                <Button icon={button.btnIcon}>{button.btnTitle}</Button>
               </div>
             ))}
           </div>
