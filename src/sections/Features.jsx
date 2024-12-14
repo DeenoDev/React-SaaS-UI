@@ -37,7 +37,7 @@ const Features = () => {
               <div className="absolute bg-s3/20 top-[38%] left-0 right-0 w-full h-[1px] z-10" />
 
               {details.map(({ id, icon, title }) => (
-                <li key={id}></li>
+                <li key={id} className="relative pt-16 px-4 pb-14"></li>
               ))}
             </ul>
           </div>
