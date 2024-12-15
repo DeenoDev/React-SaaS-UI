@@ -40,7 +40,11 @@ const Features = () => {
                 <li key={id} className="relative pt-16 px-4 pb-14">
                   <div className="absolute top-0 bottom-0 left-1/2 bg-s3/20 w-[1px] h-full z-10" />
                   <div>
-                    <img src={icon} alt={title} className="" />
+                    <img
+                      src={icon}
+                      alt={title}
+                      className="size-17/20 object-contain z-20"
+                    />
                   </div>
                 </li>
               ))}
