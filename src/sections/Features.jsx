@@ -46,6 +46,8 @@ const Features = () => {
                       className="size-17/20 object-contain z-20"
                     />
                   </div>
+
+                  <h3 className="relative z-2 max-w-36 mx-auto"></h3>
                 </li>
               ))}
             </ul>
