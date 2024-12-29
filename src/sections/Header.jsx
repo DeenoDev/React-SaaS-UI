@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link as LinkScroll } from "react-scroll";
 import { useState } from "react";
 import clsx from "clsx";
@@ -12,6 +12,8 @@ const NavLink = ({ title }) => (
 const Header = () => {
   const [hasScrolled, setHasScrolled] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
+
+  useEffect(() => {});
 
   return (
     <header className="fixed top-0 left-0 z-50 w-full py-10">
