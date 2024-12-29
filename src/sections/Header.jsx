@@ -17,6 +17,12 @@ const Header = () => {
     const handleScroll = () => {
       setHasScrolled(window.scrollY > 32);
     };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
   }, []);
 
   return (
