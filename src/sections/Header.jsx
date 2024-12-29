@@ -26,7 +26,12 @@ const Header = () => {
   }, []);
 
   return (
-    <header className={clsx(fixed top-0 left-0 z-50 w-full py-10)}>
+    <header
+      className={clsx(
+        "fixed top-0 left-0 z-50 w-full py-10",
+        hasScrolled && "py-2 bg-black-100 backdrop-blur-[8px]"
+      )}
+    >
       <div className="container flex h-14 items-center max-lg:px-5">
         <a className="lg:hidden flex h-14 items-center max-lg:px-5 flex-1 cursor-pointer z-2">
           <img src="/images/xora.svg" width={115} height={55} alt="logo" />
