@@ -21,6 +21,7 @@ const Header = () => {
 
   const NavLink = ({ title }) => (
     <LinkScroll
+      onClick={() => setIsOpen(false)}
       to={title}
       offset={-100}
       spy
