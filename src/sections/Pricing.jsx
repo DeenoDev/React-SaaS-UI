@@ -1,7 +1,12 @@
 import React from "react";
+import { Element } from "react-scroll";
 
 const Pricing = () => {
-  return <div>Pricing</div>;
+  return (
+    <section>
+      <Element></Element>
+    </section>
+  );
 };
 
 export default Pricing;
