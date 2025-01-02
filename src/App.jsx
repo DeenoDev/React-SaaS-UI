@@ -10,6 +10,7 @@ const App = () => {
       <Header />
       <Hero />
       <Features />
+      <Pricing />
     </main>
   );
 };
