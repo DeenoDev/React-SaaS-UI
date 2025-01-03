@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Element } from "react-scroll";
+import clsx from "clsx";
 
 const Pricing = () => {
   const [monthly, setMonthly] = useState(false);
