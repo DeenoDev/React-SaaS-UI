@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Element } from "react-scroll";
 
 const Pricing = () => {
-  const [monthly, setMonthly] = useState;
+  const [monthly, setMonthly] = useState(false);
 
   return (
     <section>
@@ -13,8 +13,8 @@ const Pricing = () => {
               Flexible pricing for teams of all sizes.
             </h3>
             <div>
-              <button>Monthly</button>
-              <button>Annual</button>
+              <button onClick={() => setMonthly(true)}>Monthly</button>
+              <button onClick={() => setMonthly(false)}>Annual</button>
             </div>
           </div>
         </div>
