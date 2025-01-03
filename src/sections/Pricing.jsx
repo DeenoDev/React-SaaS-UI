@@ -13,7 +13,12 @@ const Pricing = () => {
               Flexible pricing for teams of all sizes.
             </h3>
             <div>
-              <button onClick={() => setMonthly(true)}>Monthly</button>
+              <button
+                className={clsx("pricing-head_btn", monthly && "text-p4")}
+                onClick={() => setMonthly(true)}
+              >
+                Monthly
+              </button>
               <button onClick={() => setMonthly(false)}>Annual</button>
             </div>
           </div>
