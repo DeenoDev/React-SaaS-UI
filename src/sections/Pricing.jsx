@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { Element } from "react-scroll";
 
 const Pricing = () => {
+  const [monthly, setMonthly] = useState;
+
   return (
     <section>
       <Element name="pricing">
