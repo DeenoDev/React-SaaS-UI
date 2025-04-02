@@ -9,7 +9,7 @@ const Pricing = () => {
     <section>
       <Element name="pricing">
         <div className="container">
-          <div className="max-w-[950px] border-2 border-red-500">
+          <div className="max-w-[950px] ">
             <h3 className="h3 max-lg:h4 max-md:h5 z-3 mx-auto mb-14 max-w-lg text-center text-p4 max-md:mb-11 max-sm:max-w-sm">
               Flexible pricing for teams of all sizes.
             </h3>
