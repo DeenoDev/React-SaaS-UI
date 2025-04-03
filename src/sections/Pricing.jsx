@@ -35,7 +35,9 @@ const Pricing = () => {
               />
             </div>
 
-            <div className="pricing-bg"></div>
+            <div className="pricing-bg">
+              <img src="/images/bg-outlines.svg" alt="" />
+            </div>
           </div>
         </div>
       </Element>
