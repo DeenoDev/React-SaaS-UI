@@ -35,7 +35,7 @@ const Pricing = () => {
               />
             </div>
 
-            <div></div>
+            <div className="pricing-bg"></div>
           </div>
         </div>
       </Element>
