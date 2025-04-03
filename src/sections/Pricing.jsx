@@ -27,7 +27,7 @@ const Pricing = () => {
               >
                 Annual
               </button>
-              <div />
+              <div className="g4 rounded-14 before:h-100 pricing-head_btn_before absolute left-2 top-2 h-[calc(100%-16px)] w-[calc(50%-8px)]" />
             </div>
           </div>
         </div>
