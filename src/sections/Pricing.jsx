@@ -48,7 +48,7 @@ const Pricing = () => {
                 width={960}
                 height={380}
                 alt="outline"
-                className="relative z-2"
+                className="absolute inset-0 opacity-5 mix-blend-soft-light"
               />
             </div>
           </div>
