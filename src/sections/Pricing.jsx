@@ -36,7 +36,12 @@ const Pricing = () => {
             </div>
 
             <div className="pricing-bg">
-              <img src="/images/bg-outlines.svg" alt="" />
+              <img
+                src="/images/bg-outlines.svg"
+                width={960}
+                height={380}
+                alt="outline"
+              />
             </div>
           </div>
         </div>
