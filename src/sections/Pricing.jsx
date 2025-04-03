@@ -27,6 +27,7 @@ const Pricing = () => {
               >
                 Annual
               </button>
+              <div />
             </div>
           </div>
         </div>
