@@ -53,7 +53,13 @@ const Pricing = () => {
             </div>
           </div>
           {/* Pricing Section */}
-          <div></div>
+          <div>
+            {plans.map(plan, index) => (
+              <div key={}>
+
+              </div>
+            )}
+          </div>
         </div>
       </Element>
     </section>
