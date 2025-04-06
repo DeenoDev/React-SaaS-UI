@@ -52,13 +52,13 @@ const Pricing = () => {
               />
             </div>
           </div>
-          {/* Pricing Section */}
+          /* Pricing Section */
           <div>
-            {plans.map(plan, index) => (
-              <div key={}>
-
+            {plans.map((plan, index) => (
+              <div key={plan.id} className="">
+                {plan.title}
               </div>
-            )}
+            ))}
           </div>
         </div>
       </Element>
