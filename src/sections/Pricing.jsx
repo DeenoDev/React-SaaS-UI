@@ -60,7 +60,9 @@ const Pricing = () => {
                 key={plan.id}
                 className="pricing-plan_first pricing-plan_last pricing-plan_odd pricing-plan_even relative border-2 p-7 max-xl:min-w-80 max-lg:rounded-3xl xl:w-[calc(33.33%+2px)]"
               >
-                {index === 1 && <div />}
+                {index === 1 && (
+                  <div className="g4 absolute h-330 left-0 right-0 top-0 z-1 rounded-tl-3xl rounded-tr-3xl" />
+                )}
               </div>
             ))}
           </div>
