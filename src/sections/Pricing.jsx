@@ -58,7 +58,7 @@ const Pricing = () => {
             {plans.map((plan, index) => (
               <div
                 key={plan.id}
-                className="pricing-plan_first pricing-plan_last pricing-plan_odd pricing-plan_even relative border-2 p-7"
+                className="pricing-plan_first pricing-plan_last pricing-plan_odd pricing-plan_even relative border-2 p-7 max-xl:min-w-80 max-lg:rounded-3xl xl:w-[calc(33.33%+2px)]"
               >
                 {plan.title}
               </div>
