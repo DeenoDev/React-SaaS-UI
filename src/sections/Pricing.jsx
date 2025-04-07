@@ -54,7 +54,7 @@ const Pricing = () => {
             </div>
           </div>
           /* Pricing Section */
-          <div>
+          <div className="scroll-hide">
             {plans.map((plan, index) => (
               <div key={plan.id} className="">
                 {plan.title}
