@@ -78,6 +78,13 @@ const Pricing = () => {
                     )}
                   />
                 </div>
+
+                <div
+                  className={clsx(
+                    "relative flex flex-col items-center",
+                    index === 1 ? "pt-24" : "pt-12"
+                  )}
+                ></div>
               </div>
             ))}
           </div>
