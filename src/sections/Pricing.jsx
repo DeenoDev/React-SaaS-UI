@@ -69,7 +69,14 @@ const Pricing = () => {
                     index === 1 ? "-top-6" : "-top-6: xl:-top-11"
                   )}
                 >
-                  <img src={plan.logo} alt="" />
+                  <img
+                    src={plan.logo}
+                    alt={plan.title}
+                    className={clsx(
+                      "object-contain drop-shadow-2xl",
+                      index === 1 ? "size-[120px]" : "size-[88px]"
+                    )}
+                  />
                 </div>
               </div>
             ))}
