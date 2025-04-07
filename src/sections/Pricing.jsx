@@ -68,7 +68,9 @@ const Pricing = () => {
                     "absolute left-0 right-0 z-2 flex items-center justify-center",
                     index === 1 ? "-top-6" : "-top-6: xl:-top-11"
                   )}
-                ></div>
+                >
+                  <img src={plan.logo} alt="" />
+                </div>
               </div>
             ))}
           </div>
