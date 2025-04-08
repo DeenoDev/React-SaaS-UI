@@ -6,6 +6,8 @@ import { plans } from "../constants/index.js";
 const Pricing = () => {
   const [monthly, setMonthly] = useState(false);
 
+  const isPrimaryPlan = index === 1;
+
   return (
     <section>
       <Element name="pricing">
