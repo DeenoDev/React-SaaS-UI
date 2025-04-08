@@ -90,7 +90,9 @@ const Pricing = () => {
                       "small-2 rounded-20 relative z-2 mx-auto mb-6 border-2 px-4 py-1.5 uppercase",
                       index === 1 ? "border-p3 text-p3" : "border-p1 text-p1"
                     )}
-                  ></div>
+                  >
+                    {plan.title}
+                  </div>
                 </div>
               </div>
             ))}
