@@ -6,8 +6,6 @@ import { plans } from "../constants/index.js";
 const Pricing = () => {
   const [monthly, setMonthly] = useState(false);
 
-  const isPrimaryPlan = index === 1;
-
   return (
     <section>
       <Element name="pricing">
@@ -94,6 +92,10 @@ const Pricing = () => {
                     )}
                   >
                     {plan.title}
+                  </div>
+
+                  <div className="relative z-2 flex items-center justify-center">
+                    <div>$ AMOUNT</div>
                   </div>
                 </div>
               </div>
