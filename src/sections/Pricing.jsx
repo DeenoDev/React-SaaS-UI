@@ -95,7 +95,14 @@ const Pricing = () => {
                   </div>
 
                   <div className="relative z-2 flex items-center justify-center">
-                    <div>$ AMOUNT</div>
+                    <div
+                      className={clsx(
+                        "h-num flex items-start",
+                        index === 1 ? "text-p3" : "text-p4"
+                      )}
+                    >
+                      $ AMOUNT
+                    </div>
                   </div>
                 </div>
               </div>
