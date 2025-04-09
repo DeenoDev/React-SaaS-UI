@@ -102,7 +102,7 @@ const Pricing = () => {
                         index === 1 ? "text-p3" : "text-p4"
                       )}
                     >
-                      $ AMOUNT
+                      $ <CountUp />
                     </div>
                   </div>
                 </div>
