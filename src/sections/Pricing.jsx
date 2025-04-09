@@ -132,7 +132,11 @@ const Pricing = () => {
                       key={feature}
                       className="relative flex items-center gap-5"
                     >
-                      <img src={} alt="" />
+                      <img
+                        src={"/images/check.png"}
+                        alt="check"
+                        className="size-10 object-contain"
+                      />
                     </li>
                   ))}
                 </ul>
