@@ -102,7 +102,11 @@ const Pricing = () => {
                         index === 1 ? "text-p3" : "text-p4"
                       )}
                     >
-                      $ <CountUp />
+                      ${" "}
+                      <CountUp
+                        start={plan.priceMonthly}
+                        end={monthly ? plan.priceMonthly : plan.price}
+                      />
                     </div>
                   </div>
                 </div>
