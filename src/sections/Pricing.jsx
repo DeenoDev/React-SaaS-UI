@@ -127,7 +127,14 @@ const Pricing = () => {
                 </div>
 
                 <ul className="mx-auto space-y-4 xl:px-7">
-                  {plan.features.map()}
+                  {plan.features.map((feature) => (
+                    <li
+                      key={feature}
+                      className="relative flex items-center gap-5"
+                    >
+                      <img src={} alt="" />
+                    </li>
+                  ))}
                 </ul>
               </div>
             ))}
