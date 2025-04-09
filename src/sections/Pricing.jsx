@@ -105,7 +105,8 @@ const Pricing = () => {
                       ${" "}
                       <CountUp
                         start={plan.priceMonthly}
-                        end={monthly ? plan.priceMonthly : plan.price}
+                        end={monthly ? plan.priceMonthly : plan.priceYearly}
+                        duration={0.4}
                       />
                     </div>
                   </div>
