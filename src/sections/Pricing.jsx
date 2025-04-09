@@ -117,7 +117,13 @@ const Pricing = () => {
                   </div>
                 </div>
 
-                <div>{plan.caption}</div>
+                <div
+                  className={clsx(
+                    "body-1 relative z-2 mb-10 w-full border-b-s2 pb-9 text-center text-p4"
+                  )}
+                >
+                  {plan.caption}
+                </div>
               </div>
             ))}
           </div>
