@@ -116,6 +116,8 @@ const Pricing = () => {
                     </div>
                   </div>
                 </div>
+
+                <div>{plan.caption}</div>
               </div>
             ))}
           </div>
