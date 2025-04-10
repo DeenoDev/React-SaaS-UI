@@ -137,6 +137,7 @@ const Pricing = () => {
                         alt="check"
                         className="size-10 object-contain"
                       />
+                      <p className="flex-1">{feature}</p>
                     </li>
                   ))}
                 </ul>
