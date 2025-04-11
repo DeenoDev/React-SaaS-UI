@@ -141,6 +141,8 @@ const Pricing = () => {
                     </li>
                   ))}
                 </ul>
+
+                <div className="mt-10 flex w-full justify-center"></div>
               </div>
             ))}
           </div>
