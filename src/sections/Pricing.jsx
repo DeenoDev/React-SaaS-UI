@@ -147,7 +147,11 @@ const Pricing = () => {
                   <Button icon={plan.icon}>Get Started</Button>
                 </div>
 
-                {index === 1 && <p>Limited time offer</p>}
+                {index === 1 && (
+                  <p className="small-compact mt-9 text-center text-p3 ">
+                    Limited time offer
+                  </p>
+                )}
               </div>
             ))}
           </div>
