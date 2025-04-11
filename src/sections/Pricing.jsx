@@ -3,7 +3,7 @@ import { Element } from "react-scroll";
 import clsx from "clsx";
 import { plans } from "../constants/index.js";
 import CountUp from "react-countup";
-import Button from "react-scroll";
+import Button from "../components/Button.jsx";
 
 const Pricing = () => {
   const [monthly, setMonthly] = useState(false);
@@ -144,7 +144,7 @@ const Pricing = () => {
                 </ul>
 
                 <div className="mt-10 flex w-full justify-center">
-                  <Button></Button>
+                  <Button>Get Started</Button>
                 </div>
               </div>
             ))}
