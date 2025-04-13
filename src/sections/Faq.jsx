@@ -14,6 +14,8 @@ const Faq = () => {
               You've got quetions, we've got answers.
             </p>
           </div>
+
+          <div className="faq-line_after w-0.5 f-full absolute left-[calc(50%-1px)] top-0 -z-1 bg-s2" />
         </div>
       </Element>
     </section>
