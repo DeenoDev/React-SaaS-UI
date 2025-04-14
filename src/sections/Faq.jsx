@@ -20,7 +20,9 @@ const Faq = () => {
 
         <div className="faq-glow_before relative z-2 border-2 border-s2 bg-s1">
           <div className="container flex gap-10 max-lg:block">
-            <div className="rounded-half absolute -top-10 left-[calc(50%-40px)] z-4 flex size-20 items-center justify-center border-2 border-s2 bg-s1"></div>
+            <div className="rounded-half absolute -top-10 left-[calc(50%-40px)] z-4 flex size-20 items-center justify-center border-2 border-s2 bg-s1">
+              <img src="/images/faq-logo.svg" alt="logo" />
+            </div>
           </div>
         </div>
       </Element>
