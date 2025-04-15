@@ -1,6 +1,7 @@
 import React from "react";
 import { Element } from "react-scroll";
 import { faq } from "../constants/index.js";
+import FaqItem from "../components/FaqItem.jsx";
 
 const Faq = () => {
   const halfLength = Math.floor(faq.length / 2);
@@ -29,7 +30,7 @@ const Faq = () => {
 
             <div className="relative flex-1 pt-24">
               {faq.slice(0, halfLength).map((faq, index) => (
-                <div>{faq.question}</div>
+                <FaqItem />
               ))}
             </div>
           </div>
