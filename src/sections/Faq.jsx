@@ -3,6 +3,8 @@ import { Element } from "react-scroll";
 import { faq } from "../constants/index.js";
 
 const Faq = () => {
+  const halfLength = Math.floor(faq.length / 2);
+
   return (
     <section>
       <Element name="faq" className="relative">
@@ -25,7 +27,7 @@ const Faq = () => {
               <img src="/images/faq-logo.svg" alt="logo" className="size-1/2" />
             </div>
 
-            <div className="relative flex-1 pt-24">{faq}</div>
+            <div className="relative flex-1 pt-24">{faq.slice()}</div>
           </div>
         </div>
       </Element>
