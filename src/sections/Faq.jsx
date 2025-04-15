@@ -27,7 +27,9 @@ const Faq = () => {
               <img src="/images/faq-logo.svg" alt="logo" className="size-1/2" />
             </div>
 
-            <div className="relative flex-1 pt-24">{faq.slice()}</div>
+            <div className="relative flex-1 pt-24">
+              {faq.slice(0, halfLength)}
+            </div>
           </div>
         </div>
       </Element>
