@@ -1,6 +1,6 @@
 import React from "react";
 
-const FaqItem = () => {
+const FaqItem = ({ item, index }) => {
   return <div>FaqItem</div>;
 };
 

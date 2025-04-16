@@ -30,7 +30,7 @@ const Faq = () => {
 
             <div className="relative flex-1 pt-24">
               {faq.slice(0, halfLength).map((item, index) => (
-                <FaqItem key={faq.id} faq={item} />
+                <FaqItem key={item.id} faq={item} index={index} />
               ))}
             </div>
           </div>
