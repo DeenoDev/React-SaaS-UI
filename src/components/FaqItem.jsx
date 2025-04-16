@@ -19,7 +19,7 @@ const FaqItem = ({ item, index }) => {
               "h6 text-p4 transition-colors duration-500 max-md:flex max-md:min-h-20 max-md:items-center"
             )}
           >
-            {item.question}
+            {/* {item.question} */}
           </div>
         </div>
       </div>
