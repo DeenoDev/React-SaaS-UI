@@ -8,7 +8,11 @@ const FaqItem = ({ item, index }) => {
         // onClick{() => {}}
       >
         <div className="flex-1">
-          <div>{index < 10 ? "0" : ""}</div>
+          <div className="small-compact mb-1.5 text-p3 max-lg:hidden">
+            {index < 10 ? "0" : ""}
+            {index}
+          </div>
+          <div></div>
         </div>
       </div>
     </div>
