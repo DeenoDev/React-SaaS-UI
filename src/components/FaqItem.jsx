@@ -1,7 +1,8 @@
 import clsx from "clsx";
-import React from "react";
+import React, { useState } from "react";
 
 const FaqItem = ({ item, index }) => {
+  const [activeId, setActiveId] = useState(null);
   return (
     <div className="relative z-2 mb-16">
       <div
