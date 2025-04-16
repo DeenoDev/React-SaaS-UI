@@ -1,3 +1,4 @@
+import clsx from "clsx";
 import React from "react";
 
 const FaqItem = ({ item, index }) => {
@@ -12,7 +13,7 @@ const FaqItem = ({ item, index }) => {
             {index < 10 ? "0" : ""}
             {index}
           </div>
-          <div></div>
+          <div className={clsx}>{item.question}</div>
         </div>
       </div>
     </div>
