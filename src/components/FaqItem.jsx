@@ -3,6 +3,7 @@ import React, { useState } from "react";
 
 const FaqItem = ({ item, index }) => {
   const [activeId, setActiveId] = useState(null);
+  const active = activeId === item.id;
   return (
     <div className="relative z-2 mb-16">
       <div
