@@ -14,8 +14,8 @@ const FaqItem = ({ item, index }) => {
       >
         <div className="flex-1">
           <div className="small-compact mb-1.5 text-p3 max-lg:hidden">
-            {index < 10 ? "0" : ""}
-            {index}
+            {/* {index < 10 ? "0" : ""} */}
+            {/* {index} */}
           </div>
           <div
             className={clsx(
