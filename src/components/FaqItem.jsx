@@ -29,7 +29,7 @@ const FaqItem = ({ item, index }) => {
 
         <div
           className={clsx(
-            "faq-icon relative flex size-12 items-12 justify-center rounded-full border-2 border-s2 shadow-400 transition-all duration-500 group-hover:border-s4"
+            "faq-icon relative flex size-12 items-center justify-center rounded-full border-2 border-s2 shadow-400 transition-all duration-500 group-hover:border-s4"
           )}
         >
           <div className="g4 size-11/12 rounded-full shadow-300" />
