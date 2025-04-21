@@ -39,7 +39,7 @@ const FaqItem = ({ item, index }) => {
         </div>
       </div>
 
-      <SlideDown>{active === item.id && <div>{item.answer}</div>}</SlideDown>
+      <SlideDown>{activeId === item.id && <div>{item.answer}</div>}</SlideDown>
     </div>
   );
 };
