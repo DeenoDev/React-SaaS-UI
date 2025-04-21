@@ -1,6 +1,7 @@
 import clsx from "clsx";
 import React, { useState } from "react";
-import SlideDown from "react-slidedown";
+import { SlideDown } from "react-slidedown";
+import "react-slidedown/lib/slidedown.css";
 
 const FaqItem = ({ item, index }) => {
   const [activeId, setActiveId] = useState(null);
@@ -37,6 +38,7 @@ const FaqItem = ({ item, index }) => {
           <div className="g4 size-11/12 rounded-full shadow-300" />
         </div>
       </div>
+      Slide
     </div>
   );
 };
