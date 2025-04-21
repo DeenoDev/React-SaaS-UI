@@ -38,7 +38,8 @@ const FaqItem = ({ item, index }) => {
           <div className="g4 size-11/12 rounded-full shadow-300" />
         </div>
       </div>
-      Slide
+
+      <SlideDown></SlideDown>
     </div>
   );
 };
