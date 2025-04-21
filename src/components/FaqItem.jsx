@@ -1,5 +1,6 @@
 import clsx from "clsx";
 import React, { useState } from "react";
+import SlideDown from "react-slidedown";
 
 const FaqItem = ({ item, index }) => {
   const [activeId, setActiveId] = useState(null);
