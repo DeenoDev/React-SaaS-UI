@@ -46,7 +46,7 @@ const FaqItem = ({ item, index }) => {
       </SlideDown>
       <div
         className={clsx(
-          "g5 -bottom-7 -top-7 left-0 right-0 -z-1 rounded-3xl opacity-0 transition-opacity durtion-500 absolute",
+          "g5 -bottom-7 -top-7 left-0 right-0 -z-1 rounded-3xl opacity-0 transition-opacity duration-500 absolute",
           active && "opacity-100"
         )}
       >
