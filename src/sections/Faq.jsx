@@ -39,6 +39,8 @@ const Faq = () => {
               ))}
             </div>
           </div>
+
+          <div className="faq-li_after absolute left-[calc(50%-1px)] top-0 -z-1 h-full w-0.5 bg-s2 max-lg:hidden"></div>
         </div>
       </Element>
     </section>
