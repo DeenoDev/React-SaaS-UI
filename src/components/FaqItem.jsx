@@ -44,6 +44,9 @@ const FaqItem = ({ item, index }) => {
           <div className="body-3 px-7 py-3.5">{item.answer}</div>
         )}
       </SlideDown>
+      <div>
+        <div className="g4 absolute inset-0.5 -z-1 rounded-3xl"></div>
+      </div>
     </div>
   );
 };
