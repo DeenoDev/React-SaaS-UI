@@ -45,7 +45,8 @@ const FaqItem = ({ item, index }) => {
         )}
       </SlideDown>
       <div>
-        <div className="g4 absolute inset-0.5 -z-1 rounded-3xl"></div>
+        <div className="g4 absolute inset-0.5 -z-1 rounded-3xl" />
+        <div className="absolute left-8 top-0 h-0.5 w-40 bg-p1" />
       </div>
     </div>
   );
