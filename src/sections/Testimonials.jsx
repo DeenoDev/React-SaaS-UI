@@ -9,7 +9,9 @@ const Testimonials = () => {
           <h3 className="h3 max-md:h5 text-p4">Words from our fans</h3>
         </div>
 
-        <div className="testimonials_inner-after testimonials_inner-before relative -my-12 -mr-3 flex items-start max-lg:static max-md:block"></div>
+        <div className="testimonials_inner-after testimonials_inner-before relative -my-12 -mr-3 flex items-start max-lg:static max-md:block">
+          <div className="testimonials_group-after flex-50"></div>
+        </div>
       </div>
     </section>
   );
