@@ -8,6 +8,8 @@ const Testimonials = () => {
           <p className="caption mb-5 max-md:mb-2.5">Wall of Love</p>
           <h3 className="h3 max-md:h5 text-p4">Words from our fans</h3>
         </div>
+
+        <div className="testimonials_inner-after testimonials_inner-before"></div>
       </div>
     </section>
   );
