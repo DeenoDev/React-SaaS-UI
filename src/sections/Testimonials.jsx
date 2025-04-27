@@ -2,6 +2,8 @@ import React from "react";
 import { testimonials } from "../constants";
 
 const Testimonials = () => {
+  const halfLength = Math.floor(testimonials.length / 2);
+
   return (
     <section className="relative z-2 py-24 md:py-28 lg:py-40">
       <div className="container block lg:flex">
