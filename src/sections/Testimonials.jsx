@@ -16,7 +16,11 @@ const Testimonials = () => {
         <div className="testimonials_inner-after testimonials_inner-before relative -my-12 -mr-3 flex items-start max-lg:static max-md:block">
           <div className="testimonials_group-after flex-50">
             {testimonials.slice(0, halfLength).map((testimonials) => (
-              <TestimonialItem />
+              <TestimonialItem
+                key={testimonials.id}
+                item={testimonials}
+                containerClassName="last:after:hidden last:after:max-md:block"
+              />
             ))}
           </div>
         </div>
