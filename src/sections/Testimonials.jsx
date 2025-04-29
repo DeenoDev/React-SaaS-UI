@@ -1,5 +1,6 @@
 import React from "react";
 import { testimonials } from "../constants";
+import TestimonialItem from "../components/TestimonialItem";
 
 const Testimonials = () => {
   const halfLength = Math.floor(testimonials.length / 2);
@@ -15,7 +16,7 @@ const Testimonials = () => {
         <div className="testimonials_inner-after testimonials_inner-before relative -my-12 -mr-3 flex items-start max-lg:static max-md:block">
           <div className="testimonials_group-after flex-50">
             {testimonials.slice(0, halfLength).map((testimonials) => (
-              <testimonialItem />
+              <TestimonialItem />
             ))}
           </div>
         </div>
