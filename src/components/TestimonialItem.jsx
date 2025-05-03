@@ -1,6 +1,6 @@
 import React from "react";
 
-const TestimonialItem = () => {
+const TestimonialItem = ({ item, containerClassName }) => {
   return <div>TestimonialItem</div>;
 };
 
