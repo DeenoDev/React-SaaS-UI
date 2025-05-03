@@ -25,7 +25,7 @@ const Testimonials = () => {
           </div>
 
           <div className="flex-50">
-            {testimonials.slice(0, halfLength).map((testimonial) => (
+            {testimonials.slice(halfLength).map((testimonial) => (
               <TestimonialItem
                 key={testimonial.id}
                 item={testimonial}
