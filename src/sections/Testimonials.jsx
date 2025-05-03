@@ -29,7 +29,7 @@ const Testimonials = () => {
               <TestimonialItem
                 key={testimonial.id}
                 item={testimonial}
-                containerClassName="last:after:hidden last:after:max-md:block"
+                containerClassName="last:after:hidden after:right-auto after:left-0 after:max-md:-left-4 md:px-12"
               />
             ))}
           </div>
