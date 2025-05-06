@@ -9,7 +9,7 @@ const TestimonialItem = ({ item, containerClassName }) => {
         containerClassName
       )}
     >
-      <blockquote>{item.comment}</blockquote>
+      <blockquote className="h6 mb-8 text-p4">{item.comment}</blockquote>
     </div>
   );
 };
