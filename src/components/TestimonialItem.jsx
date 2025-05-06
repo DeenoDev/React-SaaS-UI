@@ -13,7 +13,11 @@ const TestimonialItem = ({ item, containerClassName }) => {
 
       <div className="flex items-center max-xl:-mr-8">
         <div>
-          <img src={item.avatarUrl} alt={item.name} />
+          <img
+            src={item.avatarUrl}
+            alt={item.name}
+            className="size-full object-cover"
+          />
         </div>
       </div>
     </div>
