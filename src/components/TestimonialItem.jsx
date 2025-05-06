@@ -9,7 +9,7 @@ const TestimonialItem = ({ item, containerClassName }) => {
         containerClassName
       )}
     >
-      TestimonialItem
+      <blockquote>{item.comment}</blockquote>
     </div>
   );
 };
