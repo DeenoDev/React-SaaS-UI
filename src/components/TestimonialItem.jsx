@@ -10,6 +10,8 @@ const TestimonialItem = ({ item, containerClassName }) => {
       )}
     >
       <blockquote className="h6 mb-8 text-p4">{item.comment}</blockquote>
+
+      <div className="flex items-center max-xl:-mr-8"></div>
     </div>
   );
 };
