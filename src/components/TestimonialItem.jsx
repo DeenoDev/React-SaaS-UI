@@ -13,7 +13,7 @@ const TestimonialItem = ({ item, containerClassName }) => {
 
       <div className="flex items-center max-xl:-mr-8">
         <div>
-          <img src={item.avatarUrl} alt="" />
+          <img src={item.avatarUrl} alt={item.name} />
         </div>
       </div>
     </div>
