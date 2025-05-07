@@ -21,6 +21,7 @@ const TestimonialItem = ({ item, containerClassName }) => {
         </div>
         <div>
           <h4>{item.name}</h4>
+          <p>{item.role}</p>
         </div>
       </div>
     </div>
