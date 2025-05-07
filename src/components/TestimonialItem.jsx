@@ -19,6 +19,9 @@ const TestimonialItem = ({ item, containerClassName }) => {
             className="size-full object-cover"
           />
         </div>
+        <div>
+          <h4>{item.name}</h4>
+        </div>
       </div>
     </div>
   );
