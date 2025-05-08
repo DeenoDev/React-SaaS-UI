@@ -10,7 +10,11 @@ const Download = () => {
       >
         <div className="container">
           <div className="flex items-center">
-            <div className="relative mr-6 flex-540 max-xl:flex-280 max-lg:flex-256 max-md:flex-100"></div>
+            <div className="relative mr-6 flex-540 max-xl:flex-280 max-lg:flex-256 max-md:flex-100">
+              <div className="mb-10">
+                <img src="/images/xora.svg" alt="" />
+              </div>
+            </div>
           </div>
         </div>
       </Element>
