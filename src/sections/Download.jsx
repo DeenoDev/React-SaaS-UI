@@ -19,7 +19,7 @@ const Download = () => {
                   height={55}
                 />
               </div>
-              <p>
+              <p className="body-1 mb-10 max-w-md">
                 Try it now for free on iOS, Android, PC, Web - whatever your
                 flavour, we've got you covered.
               </p>
