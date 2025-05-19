@@ -23,6 +23,8 @@ const Download = () => {
                 Try it now for free on iOS, Android, PC, Web - whatever your
                 flavour, we've got you covered.
               </p>
+
+              <ul className="flex flex-wrap items-center gap-6"></ul>
             </div>
           </div>
         </div>
