@@ -1,6 +1,6 @@
 import React from "react";
 import { Element } from "react-scroll";
-import Link from "react-scroll";
+import { links } from "../constants";
 
 const Download = () => {
   return (
@@ -25,7 +25,7 @@ const Download = () => {
                 flavour, we've got you covered.
               </p>
 
-              <ul className="flex flex-wrap items-center gap-6"></ul>
+              <ul className="flex flex-wrap items-center gap-6">{links.map}</ul>
             </div>
           </div>
         </div>
