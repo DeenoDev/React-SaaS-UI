@@ -1,5 +1,6 @@
 import React from "react";
 import { Element } from "react-scroll";
+import Link from "react-scroll";
 
 const Download = () => {
   return (
