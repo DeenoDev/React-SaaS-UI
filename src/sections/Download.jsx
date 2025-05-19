@@ -25,7 +25,11 @@ const Download = () => {
                 flavour, we've got you covered.
               </p>
 
-              <ul className="flex flex-wrap items-center gap-6">{links.map}</ul>
+              <ul className="flex flex-wrap items-center gap-6">
+                {links.map(({ id, url, icon }) => (
+                  <li></li>
+                ))}
+              </ul>
             </div>
           </div>
         </div>
