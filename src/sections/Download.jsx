@@ -27,7 +27,10 @@ const Download = () => {
 
               <ul className="flex flex-wrap items-center gap-6">
                 {links.map(({ id, url, icon }) => (
-                  <li key={id} className="download_tech-link">
+                  <li
+                    key={id}
+                    className="download_tech-link download_tech-link_last-before download_tech-link_last-after"
+                  >
                     {url}
                   </li>
                 ))}
