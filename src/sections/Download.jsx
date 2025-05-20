@@ -1,6 +1,7 @@
 import React from "react";
 import { Element } from "react-scroll";
 import { links } from "../constants";
+import Marker from "../components/Marker";
 
 const Download = () => {
   return (
@@ -31,7 +32,11 @@ const Download = () => {
                     key={id}
                     className="download_tech-link download_tech-link_last-before download_tech-link_last-after"
                   >
-                    <a href={url}></a>
+                    <a href={url}>
+                      <span className="absolute -top-2 rotate-90">
+                        <Marker />
+                      </span>
+                    </a>
                   </li>
                 ))}
               </ul>
