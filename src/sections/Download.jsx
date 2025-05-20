@@ -31,7 +31,7 @@ const Download = () => {
                     key={id}
                     className="download_tech-link download_tech-link_last-before download_tech-link_last-after"
                   >
-                    {url}
+                    <a href={url}></a>
                   </li>
                 ))}
               </ul>
