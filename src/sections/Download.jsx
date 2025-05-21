@@ -50,6 +50,8 @@ const Download = () => {
                 ))}
               </ul>
             </div>
+
+            <div className="mb-10 max-md:hidden"></div>
           </div>
         </div>
       </Element>
