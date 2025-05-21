@@ -36,6 +36,7 @@ const Download = () => {
                       <span className="absolute -top-2 rotate-90">
                         <Marker />
                       </span>
+                      <img src={"/images/lines.svg"} alt="lines" />
                     </a>
                   </li>
                 ))}
