@@ -41,6 +41,7 @@ const Download = () => {
                         alt="lines"
                         className="absolute size-13/20 object-contain"
                       />
+                      <span className="download_tech-icon">{icon}</span>
                     </a>
                   </li>
                 ))}
