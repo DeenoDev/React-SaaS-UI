@@ -58,7 +58,13 @@ const Download = () => {
                   <span className="download_preview-dot left-11 bg-s3" />
                   <span className="download_preview-dot left-16 bg-p1/15" />
 
-                  <img src="/images/screen.jpg" alt="" />
+                  <img
+                    src="/images/screen.jpg"
+                    width={655}
+                    height={655}
+                    alt="screen"
+                    className="rounded-xl"
+                  />
                 </div>
               </div>
             </div>
