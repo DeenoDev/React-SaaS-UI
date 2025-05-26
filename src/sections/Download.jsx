@@ -55,6 +55,8 @@ const Download = () => {
               <div className="download_preview-before download_preview-after rounded-40 relative w-[955px] border-2 border-s5 p-6">
                 <div className="relative rounded-3xl bg-s1 px-6 pb-6 pt-14 ">
                   <span className="download_preview-dot left-6 bg-p2" />
+                  <span className="download_preview-dot left-11 bg-s3" />
+                  <span className="download_preview-dot left-16 bg-p1/15" />
                 </div>
               </div>
             </div>
