@@ -51,7 +51,9 @@ const Download = () => {
               </ul>
             </div>
 
-            <div className="mb-10 max-md:hidden"></div>
+            <div className="mb-10 max-md:hidden">
+              <div className="download_preview-before"></div>
+            </div>
           </div>
         </div>
       </Element>
