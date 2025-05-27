@@ -70,7 +70,7 @@ const Download = () => {
               </div>
             </div>
           </div>
-          <ul>
+          <ul className="mt-24 flex justify-center max-lg:hidden">
             {logos.map(({ id, url, width, height, title }) => (
               <li>
                 <img src={url} width={width} height={height} alt={title} />
