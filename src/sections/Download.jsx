@@ -69,6 +69,7 @@ const Download = () => {
               </div>
             </div>
           </div>
+          <ul>{logos.map({ id, url, width, height, title })}</ul>
         </div>
       </Element>
     </section>
