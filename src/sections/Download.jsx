@@ -2,6 +2,7 @@ import React from "react";
 import { Element } from "react-scroll";
 import { links } from "../constants";
 import Marker from "../components/Marker";
+import { logos } from "../constants";
 
 const Download = () => {
   return (
