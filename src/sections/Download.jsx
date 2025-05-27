@@ -71,7 +71,9 @@ const Download = () => {
           </div>
           <ul>
             {logos.map(({ id, url, width, height, title }) => (
-              <li></li>
+              <li>
+                <img src={url} width={width} height={height} alt={title} />
+              </li>
             ))}
           </ul>
         </div>
