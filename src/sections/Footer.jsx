@@ -1,4 +1,5 @@
 import React from "react";
+import { socials } from "../constants";
 
 const Footer = () => {
   return (
@@ -16,7 +17,9 @@ const Footer = () => {
               </p>
             </div>
           </div>
-          <ul className="flex flex-1 justify-center gap-3 max-md:mt-10 md:justify-end"></ul>
+          <ul className="flex flex-1 justify-center gap-3 max-md:mt-10 md:justify-end">
+            {socials}
+          </ul>
         </div>
       </div>
     </footer>
