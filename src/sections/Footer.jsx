@@ -16,6 +16,7 @@ const Footer = () => {
               </p>
             </div>
           </div>
+          <ul className="flex flex-1 justify-center gap-3 max-md:mt-10 md:justify-end"></ul>
         </div>
       </div>
     </footer>
