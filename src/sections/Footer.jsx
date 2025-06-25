@@ -18,7 +18,9 @@ const Footer = () => {
             </div>
           </div>
           <ul className="flex flex-1 justify-center gap-3 max-md:mt-10 md:justify-end">
-            {socials}
+            {socials.map(({ id, url, icon, title }) => (
+              <li key={id}></li>
+            ))}
           </ul>
         </div>
       </div>
