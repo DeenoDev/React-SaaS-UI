@@ -21,7 +21,11 @@ const Footer = () => {
             {socials.map(({ id, url, icon, title }) => (
               <li key={id}>
                 <a href={url} className="social-icon">
-                  <img src={icon} alt={title} />
+                  <img
+                    src={icon}
+                    alt={title}
+                    className="size-1/3 object-contain"
+                  />
                 </a>
               </li>
             ))}
